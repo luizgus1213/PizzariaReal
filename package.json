@@ -1,7 +1,11 @@
+ 
 {
   "name": "digital-menu",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "private": false,
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
