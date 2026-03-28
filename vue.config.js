@@ -1,6 +1,6 @@
 module.exports = {
-  publicPath: "/digital-menu",
-  outputDir: "../digital-menu-build",
+  publicPath: "/",
+  outputDir: "dist",
   chainWebpack: (config) => {
     config.plugin("html").tap((args) => {
       args[0].title = "Menu Real";
