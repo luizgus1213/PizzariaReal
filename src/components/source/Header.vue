@@ -1,7 +1,7 @@
 <template>
   <div>
     <header v-if="visible && !volume" id="header">
-      <a href="https://pizzariareal/digital-menu/#/" target="_blank">
+      <a href="https://pizzaria-real-21.vercel.app/#/basket" target="_blank">
         <h1>Menu R e a l</h1>
         <img :src="require('@/assets/logo.png')" loading="lazy" />
       </a>

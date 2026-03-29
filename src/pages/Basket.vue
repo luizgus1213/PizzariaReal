@@ -124,10 +124,12 @@
     <!-- CONTEUDO SOBRE NOS -->
     <main v-if="abaAtiva === 'sobre'" class="sobre-nos">
       <figure class="foto-local">
-        <img
-          src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/local-pizza-t10NkwQPFPjL0tCSTLRCxvq7m1CYUK.jpg"
-          alt="Pizzaria Sabor Real"
-        />
+        <a href="https://ibb.co/gZ2bzfpJ"
+          ><img
+            src="https://i.ibb.co/HTSLnbsq/local-pizza.jpg"
+            alt="local-pizza"
+            border="0"
+        /></a>
       </figure>
 
       <div class="info-empresa">
@@ -700,10 +702,11 @@ export default {
 
 .foto-local img {
   width: 100%;
-  height: auto;
+  max-width: 1000px;
+
+  max-height: auto;
   display: block;
 }
-
 .info-empresa {
   background: rgba(0, 0, 0, 0.05);
   padding: 20px;
