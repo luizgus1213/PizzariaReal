@@ -117,7 +117,7 @@ export default {
 }
 
 #header a img {
-  width: 65px;
+  width: 95px;
   height: 65px;
 }
 

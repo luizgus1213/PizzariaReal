@@ -42,9 +42,9 @@ export default {
 
     genereteMessage(item) {
       console.log("PHONE:", this.phone); // 👈 TESTE
-
+      console.log("BASKET:", this.shoppingBasket);
       let message = encodeURIComponent(
-        `Olá, gostaria de pedir: *${item.nome}*`,
+        `Olá, gostaria de pedir: *${item.nome}* na Mesa:`,
       );
       return `https://wa.me/${this.phone}?text=${message}`;
     },
@@ -66,6 +66,7 @@ export default {
   computed: {
     ...mapState("menuItems", ["items"]),
     ...mapState("statics", ["phone"]),
+    ...mapState("shoppingBasket", ["shoppingBasket"]),
   },
 
   mounted() {
